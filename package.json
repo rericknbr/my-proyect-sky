@@ -1,5 +1,12 @@
 {
+  "name": "my-proyecto--cielo",
+  "version": "1.0.0",
   "engines": {
+    "node": "20.19.4"
+  },
+  "scripts": {
+    ...
+"engines": {
     "node": "20.19.4"
   },
   "name": "@workspace/mobile",
@@ -66,6 +73,7 @@
     "expo-build-properties": "^1.0.10",
     "expo-notifications": "^0.32.17",
     "expo-router": "56.2.12",
+    "metro-cache": "^0.85.0",
     "react": "19.1.0",
     "react-native": "0.81.5"
   }
