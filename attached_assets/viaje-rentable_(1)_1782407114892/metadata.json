@@ -1,0 +1,6 @@
+{
+  "name": "Viaje Rentable",
+  "description": "Calculadora de ganancia real por kilómetro antes de aceptar viajes en Uber y DiDi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

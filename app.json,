@@ -1,0 +1,23 @@
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#C6F135",
+          "defaultChannel": "viaje-rentable"
+        }
+      ],
+      ["@react-native-build-properties", {
+        "android": {
+          "newArchEnabled": true
+        }
+      }]
+    ],

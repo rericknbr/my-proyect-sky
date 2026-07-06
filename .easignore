@@ -1,0 +1,14 @@
+# Excluir dependencias locales
+node_modules/
+
+# Excluir carpetas de compilación local de Android/iOS si existen
+android/app/build/
+ios/build/
+
+# Excluir temporales de Expo
+.expo/
+
+# Archivos de reportes o artefactos innecesarios
+.replit-artifact/
+.tsbuildinfo
+

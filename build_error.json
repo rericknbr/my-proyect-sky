@@ -1,0 +1,44 @@
+{
+  "id": "8653e7af-0d90-4954-b894-b89523d10774",
+  "status": "ERRORED",
+  "platform": "ANDROID",
+  "error": {
+    "errorCode": "EAS_BUILD_UNKNOWN_GRADLE_ERROR",
+    "message": "Gradle build failed with unknown error. See logs for the \"Run gradlew\" phase for more information."
+  },
+  "artifacts": {},
+  "initiatingActor": {
+    "id": "88a8b115-5cf6-431c-b5fb-d8faa6c76777",
+    "displayName": "erickmxbr"
+  },
+  "logFiles": [
+    "https://storage.googleapis.com/eas-workflows-production/logs/988a845f-0967-4a6a-959c-57dc2233af41/8653e7af-0d90-4954-b894-b89523d10774/2026-06-29T04%3A55%3A54Z-7394ff74-35ab-4fa5-86f5-9eefa21d0de2.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260629%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260629T045616Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=bb08f2b0ac11afcbd293a0623691b047240e76869c8d3518fdafa94c5dbc2d4e8b4a756d9d37397a303fb6c103f56d77342b5d39afacdb556930b13a1ee3bf297007a87947f2599486593d65c7b36150ff1838b66dfeaffc3bb20398631391570b8bb3b03476fff39d2810e95ca001fbe6df9007d3b40d27a7e99b95de39214572e59fc7eb6a196ba34470cda2a41a2aa6945b8a26c71c9f7b9c3facfe958fe5fdd1680e3c65c7be1df851df1ea89a30141ae996d454bb7a7297d8a50b57c40dfc9e0580a48b7096289d265cce118764b7ce30e2a265dc1961d34ef2e840c46fa9bf95c69bb7421a3d72354ed8e5ade0d9c085fb10f9c2a4b1625f29f41391c1"
+  ],
+  "project": {
+    "id": "988a845f-0967-4a6a-959c-57dc2233af41",
+    "name": "viaje-rentable",
+    "slug": "viaje-rentable",
+    "ownerAccount": {
+      "id": "357daa35-caf2-428a-b3f5-e4dbe03c1670",
+      "name": "erickmxbr"
+    }
+  },
+  "distribution": "INTERNAL",
+  "buildProfile": "preview",
+  "sdkVersion": "54.0.0",
+  "appVersion": "1.0.0",
+  "appBuildVersion": "1",
+  "gitCommitHash": "eebb26a83f8abf54aee7898f2c1003770bbd66d6",
+  "gitCommitMessage": "y",
+  "priority": "NORMAL",
+  "createdAt": "2026-06-29T04:55:45.201Z",
+  "updatedAt": "2026-06-29T04:58:49.582Z",
+  "completedAt": "2026-06-29T04:58:49.387Z",
+  "expirationDate": "2026-07-13T04:55:45.234Z",
+  "isForIosSimulator": false,
+  "metrics": {
+    "buildWaitTime": 8044,
+    "buildQueueTime": 5738,
+    "buildDuration": 170404
+  }
+}

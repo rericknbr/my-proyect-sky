@@ -1,0 +1,90 @@
+packages:
+  - 'artifacts/*'
+  - 'lib/*'
+  - 'lib/api-zod'
+  - 'lib/db'
+  - 'packages/*'
+  - 'scripts'
+
+allowBuilds:
+  esbuild: false
+
+catalog:
+  # Core & Types
+  'react': '^18.2.0'
+  'react-dom': '^18.2.0'
+  '@types/react': '^18.2.0'
+  '@types/react-dom': '^18.2.0'
+  '@types/node': '^20.0.0'
+  'typescript': '^5.0.0'
+
+  # Mobile & Native
+  'react-native': '*'
+  'expo': '*'
+
+  # Database & Validation
+  'drizzle-orm': '^0.30.0'
+  'drizzle-kit': '^0.20.0'
+  'zod': '^3.0.0'
+  '@types/pg': '*'
+  'pg': '*'
+  '@neondatabase/serverless': '*'
+
+  # Frontend Tooling & Replit Plugins
+  'vite': '^5.0.0'
+  '@vitejs/plugin-react': '^4.0.0'
+  '@replit/vite-plugin-cartographer': '*'
+  '@replit/vite-plugin-runtime-error-modal': '*'
+  '@replit/vite-plugin-shadcn-theme-editor': '*'
+
+  # Styles & UI Components
+  '@tailwindcss/vite': '*'
+  'tailwindcss': '*'
+  'postcss': '*'
+  'autoprefixer': '*'
+  'lucide-react': '*'
+  'class-variance-authority': '*'
+  'clsx': '*'
+  'tailwind-merge': '*'
+  'framer-motion': '*'
+
+  # Radix UI
+  '@radix-ui/react-slot': '*'
+  '@radix-ui/react-dialog': '*'
+  '@radix-ui/react-dropdown-menu': '*'
+  '@radix-ui/react-toast': '*'
+  '@radix-ui/react-label': '*'
+  '@radix-ui/react-avatar': '*'
+  '@radix-ui/react-checkbox': '*'
+  '@radix-ui/react-scroll-area': '*'
+  '@radix-ui/react-select': '*'
+  '@radix-ui/react-tabs': '*'
+  '@radix-ui/react-popover': '*'
+  '@radix-ui/react-tooltip': '*'
+
+  # Utilities & State
+  '@tanstack/react-query': '^5.0.0'
+  'tsx': '*'
+  'dotenv': '*'
+  'date-fns': '*'
+  'lucide': '*'
+
+minimumReleaseAgeExclude:
+  - '@expo/cli@56.1.17'
+  - '@expo/config-plugins@56.0.10'
+  - '@expo/config-types@56.0.7'
+  - '@expo/config@56.0.10'
+  - '@expo/fingerprint@0.19.5'
+  - '@expo/log-box@56.0.14'
+  - '@expo/metro-config@56.0.15'
+  - '@expo/metro-runtime@56.0.16'
+  - '@expo/prebuild-config@56.0.17'
+  - '@expo/router-server@56.0.15'
+  - '@expo/ui@56.0.19'
+  - babel-preset-expo@56.0.16
+  - expo-asset@56.0.18
+  - expo-constants@56.0.19
+  - expo-modules-autolinking@56.0.17
+  - expo-modules-core@56.0.18
+  - expo-router@56.2.12
+  - expo@56.0.13

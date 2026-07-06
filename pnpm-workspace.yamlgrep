@@ -1,0 +1,8 @@
+packages:
+  - 'artifacts/*'
+  - 'lib/*'
+  - 'scripts'
+
+catalog:
+  '@tanstack/react-query': '^5.0.0'
+  '@types/node': '^20.0.0' -r "catalog:" /data/data/com.termux/files/home/mi-proyecto/app2/artifacts/ /data/data/com.termux/files/home/mi-proyecto/app2/lib/
