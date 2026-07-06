@@ -69,13 +69,13 @@
       "reactCompiler": true
     },
     "extra": {
-      "eas": {
-        "projectId": "8f284f43-cdd4-451d-98f5-9b11f8fd5242"
-      },
       "router": {
         "origin": "https://replit.com/"
+      },
+      "eas": {
+        "projectId": "9660e92b-0e95-4e42-a589-940cc6c68e6b"
       }
     },
-    "owner": "erickmxbr"
+    "owner": "rericknbr"
   }
 }
