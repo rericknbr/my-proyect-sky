@@ -11,9 +11,11 @@
       "distribution": "internal"
     },
     "production": {
-      "image": "default",
+      "android": {
+        "image": "default"
+      },
        "env": {
-        "EAS_BUILD_DISABLE_BUNDLE_JAVASCRIPT_STEP": "1"
+         "EAS_BUILD_DISABLE_BUNDLE_JAVASCRIPT_STEP": "1"
       }
     }
   }
