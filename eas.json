@@ -12,7 +12,7 @@
     },
     "production": {
       "android": {
-        "image": "default"
+        "image": "ubuntu-22.04"
       },
        "env": {
          "EAS_BUILD_DISABLE_BUNDLE_JAVASCRIPT_STEP": "1"
