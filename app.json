@@ -26,12 +26,15 @@
         "backgroundColor": "#0D0D0D"
       },
       "permissions": [
-        "NOTIFICATIONS",
-        "RECEIVE_BOOT_COMPLETED",
-        "VIBRATE",
-        "SYSTEM_ALERT_WINDOW",
-        "FOREGROUND_SERVICE",
-        "FOREGROUND_SERVICE_SPECIAL_USE"
+        "android.permission.NOTIFICATIONS",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.BIND_ACCESSIBILITY_SERVICE"
       ]
     },
     "web": {
